@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <article
+    className="header content-wrapper"
+  >
+    <section
+      className="logo"
+    >
+      <img
+        alt="MusicPlay"
+        src="../img/logo.png"
+      />
+    </section>
+  </article>
+</header>
+`;
+
+exports[`Home renders correctly 1`] = `
+<header>
+  <article
+    className="header content-wrapper"
+  >
+    <section
+      className="logo"
+    >
+      <img
+        alt="MusicPlay"
+        src="../img/logo.png"
+      />
+    </section>
+  </article>
+</header>
+`;

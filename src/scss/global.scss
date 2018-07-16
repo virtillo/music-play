@@ -1,0 +1,27 @@
+// This stylesheet outputs styles that will be needed globally such as resets and helpers.
+
+// Settings
+@import "settings/variables";
+
+// Tools
+@import "tools/mixins";
+
+// Generic
+@import "generic/reset";
+
+// Elements
+@import "elements/general";
+@import "elements/page";
+@import "elements/typography";
+@import "elements/animations";
+
+// Objects
+
+// Components
+@import "components/home";
+@import "components/video";
+@import "components/header";
+@import "components/show-video";
+
+// Utilities
+@import "utilities/helpers";

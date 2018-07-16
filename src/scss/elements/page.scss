@@ -1,0 +1,49 @@
+* {
+    box-sizing: inherit;
+}
+
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: $ffBase;
+  font-weight: $fwBase;
+  line-height: $lhBase / $fzBase;
+  @include font-size($fzBase);
+  //font-size: $fzBase;
+  color: $fontColor1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #494848;
+}
+
+.content-wrapper{
+    max-width: em($pageWidth);
+    margin: 0 auto;
+    padding: 0 em(20);
+}
+
+.fade-enter {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+.fade-enter.fade-enter-active {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}

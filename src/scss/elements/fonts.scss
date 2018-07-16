@@ -1,0 +1,16 @@
+$fontLocation: "/public/fonts/";
+$fontTypes: "AlfaSlabOne-Regular", "Roboto-Regular";
+
+@each $type in $fontTypes {
+    $location: "#{$fontLocation}#{$type}";
+
+    @font-face {
+        font-family: $type;
+        src: url("#{$location}.eot");
+        src: url("#{$location}.eot?#iefix") format("embedded-opentype"),
+            url("#{$location}.woff") format("woff"),
+            url("#{$location}.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
+}

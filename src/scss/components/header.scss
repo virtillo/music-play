@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    height: em(40);
+    background-image: url(/img/header_bg_2.png), url(/img/header_bg_2.png);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 0 0, -1px 0px;
+
+    .header{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .logo{
+        width: em(195);
+        position: relative;
+        top: em(20);
+    }
+
+    .search{
+        width: em(200);
+        margin-left: auto;
+        top: em(20);
+        position: relative;
+        font-family: $ffBase;
+        font-size: em(16);
+        line-height: 1.14;
+        padding-left: em(10);
+        @include mqMax(xs) {
+            width: 100%;
+            margin-top: em(10);
+            margin-bottom: em(10);
+            padding: em(10);
+        }
+    }
+}

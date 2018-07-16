@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<main>
+  <header>
+    <article
+      className="header content-wrapper"
+    >
+      <section
+        className="logo"
+      >
+        <img
+          alt="MusicPlay"
+          src="../img/logo.png"
+        />
+      </section>
+      <input
+        className="search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+      />
+    </article>
+  </header>
+  <div
+    className="home"
+  >
+    <div
+      className="home-wrapper content-wrapper"
+      tabIndex="0"
+    />
+  </div>
+</main>
+`;

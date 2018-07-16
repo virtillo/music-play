@@ -1,0 +1,18 @@
+.home{
+    background-image: url(/img/main_bg_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    @include mqMax(s) {
+        background-size: initial;
+    }
+    .home-wrapper{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        padding-top: em(50);
+        padding-bottom: em(160);
+        @include mqMax(xs) {
+            padding-top: em(100);
+        }
+    }
+}
